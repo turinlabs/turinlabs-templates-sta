@@ -12,12 +12,17 @@
 -->
           <mj-image padding-top="32px" padding-bottom="42px" height="40px" width="161px" align="center" src="https://d3os3rq25u3h91.cloudfront.net/tp/images/turinpay_imagotype.png" alt="TurinPay"/>
 <!--
-          <%} else {%>
+          <%} else if (domainApp === "TurinPool") { %>
+-->
+          <mj-image padding-top="32px" padding-bottom="42px" height="40px" width="194px" align="center" src="https://d3os3rq25u3h91.cloudfront.net/turinpool/images/turinpool_imagotype.png" alt="TurinPool"/>
+<!--
+          <% } else { %>
 -->
           <mj-image padding-top="32px" padding-bottom="42px" height="40px" width="198px" align="center" src="https://d3os3rq25u3h91.cloudfront.net/tw/images/turinwallet_imagotype.png" alt="TurinWallet"/>
 <!--
 <%}%>
 -->
+
         <mj-text padding="8px 32px" font-weight="700" font-size="16px" color="#FCA311" >Hello Turinlaber,</mj-text>
         <mj-text padding="8px 32px" font-size="16px" color="#111827" >This is your code to recover your secret in #{domainApp}</mj-text>
         <mj-text padding="20px 32px" font-weight="700" font-size="20px" align="center" color="#111827" >#{code}</mj-text>

@@ -7,7 +7,7 @@
     </mj-section>
     <mj-section background-color="#d1d5db" padding="1px" border-radius="12px" background-color="#ffffff">
       <mj-column border-radius="12px" background-color="#ffffff">
-        <mj-image padding-top="32px" padding-bottom="42px" height="40px" width="161px" align="center" src="https://d3os3rq25u3h91.cloudfront.net/tp/images/turinpay_imagotype.png" alt="TurinPay"/>
+        <mj-image padding-top="32px" padding-bottom="42px" height="40px" width="194px" align="center" src="https://d3os3rq25u3h91.cloudfront.net/tp/images/turinpay_imagotype.png" alt="TurinPay"/>
         <mj-text padding="8px 32px" font-weight="700" font-size="16px" color="#FCA311" >Hello Turinlaber,</mj-text>
         <mj-text padding="8px 32px" font-size="16px" line-height="1.5" color="#111827" >Invoice Paid! Congrats!</mj-text>
         <mj-table padding="8px 32px" font-size="16px" line-height="1.5" cellpadding="2">
